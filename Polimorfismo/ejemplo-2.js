@@ -1,3 +1,7 @@
+function sumar (a,b){
+    sumar = a+b;
+}
+
 class Animal{
     constructor(nombre, color){
         this.nombre = nombre;
@@ -26,3 +30,6 @@ console.log(Snoopy.Saludo)
 
 console.log(Kiara.nombre)
 console.log(Kiara.Saludo)
+
+sumar(1,9);
+console.log(sumar)
