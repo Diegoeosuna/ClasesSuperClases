@@ -26,10 +26,10 @@ class Perro extends Animal{
 const Snoopy = new Perro("Snoopy", "Blanco y negro", "Beagle")
 const Kiara = new Perro("Kiara", "Café, Blanco y Negro", "Beagle")
 console.log(Snoopy.nombre)
-console.log(Snoopy.Saludo)
+console.log(Snoopy.Saludo())
 
-console.log(Kiara.nombre)
-console.log(Kiara.Saludo)
+//console.log(Kiara.nombre)
+//console.log(Kiara.Saludo)
 
 sumar(1,9);
 console.log(sumar)
